@@ -1,0 +1,15 @@
+main {
+  padding: 48px;
+
+  margin-left: 96px;
+
+  @media (max-width: $sm) {
+    margin-left: 0;
+  }
+
+  #projects-list {
+    display: flex;
+    max-width: 80%;
+    flex-flow: row wrap;
+  }
+}

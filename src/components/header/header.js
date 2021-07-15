@@ -16,8 +16,8 @@ const Header = () => {
         type="button"
         onClick={toggleNav}
       >
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
+        <span className="hamburger-box">
+          <span className="hamburger-inner"></span>
         </span>
       </button>
       <div className="desktop-heading">
